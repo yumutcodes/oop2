@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        Bird calikusu=new Bird("calikusu","red",4,true,true,78.3);
+        System.out.println(calikusu.getName()+calikusu.getColor()+calikusu.getFeet()+calikusu.isCanfly()+calikusu.isHastale());
+        calikusu.eat("salata");
+        System.out.println(calikusu.weight);
+        calikusu.agirlik();
+    }
+}
